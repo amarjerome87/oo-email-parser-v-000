@@ -14,7 +14,6 @@ end
 
 def parse
   joined_email = @email.gsub(/\,/,"").split(" ")
-  binding.pry
   # updated_email = joined_email.
   # updated_email.uniq
 
