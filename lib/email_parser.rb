@@ -15,7 +15,7 @@ def initialize(email)
 end
 
 def parse
-  joined_email = @@all.join("")
+  joined_email = @@all.join("").gsub(/\,/,"")
   updated_email = joined_email.split
   binding.pry
 end
