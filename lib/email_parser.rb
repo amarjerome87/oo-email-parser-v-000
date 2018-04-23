@@ -13,7 +13,7 @@ def initialize(email)
 end
 
 def parse
-  joined_email = @email.split("")
+  joined_email = @email.split(" ")
   binding.pry
   # updated_email = joined_email.
   # updated_email.uniq
