@@ -17,6 +17,7 @@ end
 def parse
   joined_email = @@all.join("")
   updated_email = joined_email.split
+  binding.pry
 end
 
 
