@@ -16,8 +16,7 @@ end
 
 def parse
   joined_email = @@all.join("")
-  updated_email = joined_email.gsub(/\,/,"")
-  binding.pry
+  updated_email = joined_email
 end
 
 
