@@ -6,18 +6,17 @@ require 'pry'
 class EmailParser
 
 attr_accessor :email
-@@all = []
 
 def initialize(email)
   @email = email
-  @@all << @email
 
 end
 
 def parse
-  joined_email = @@all.join("").gsub(/\,/,"")
-  updated_email = joined_email.split
-  updated_email.uniq
+  joined_email = @email.split("")
+  binding.pry
+  # updated_email = joined_email.
+  # updated_email.uniq
 
 end
 
